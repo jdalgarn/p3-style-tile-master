@@ -1,12 +1,16 @@
 /* Set Your Own Margin & Padding */
 
+body{
+
+	background-color: #173045;
+
+}
 
 h1{
 
 font-family: 'Anaheim', sans-serif;
 font-variant: bold;
-font-size: 42px;
-
+font-size: 2.55em;
 float: right;
 
 }
@@ -15,7 +19,6 @@ h2{
 	
 	font-family: 'Raleway', sans-serif;
 	
-	padding-top: 60px;
 
 }
 
@@ -27,16 +30,30 @@ h2{
 }
 
 .name{
-
-	position: relative;
+	
+	width: 90%;
 	float: right;
 	
 }
 
+.name em {
+
+}
+
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
+
+	background-color: #fff;
+	margin: 20px 15px 0px 15px;
+
 }
+
+#words{
+
+	margin: 0px 15px 0px 15px;
+
+}
+
 
 .color-1,
 .color-2,
@@ -53,12 +70,6 @@ section {
 
 }
 
-
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
-
 @media screen and (max-width: 2600px){
 
 	.logo{
@@ -70,18 +81,36 @@ section {
 		
 	}
 
-	h1, p{
+	section, #words, p{
 
 		max-width: 90%;
+		font-size: 90%;
 		margin-right: 200px;
 		transition: all 1s;
 		
 	}
 
-	#colors{
+	h1{
 
 		max-width: 90%;
-		max-height: 90%;
+		font-size: 2.5em;
+		margin-right: 200px;
+		transition: all 1s;
+
+	}
+
+	#colors{
+		
+		max-width: 70%;
+		font-size: 80%;
+		margin-right: 200px;
+		transition: all 1s;
+		
+	}
+	
+	#textures{
+
+		max-width: 67.5%;
 		transition: all 1s;
 		
 	}
@@ -98,18 +127,35 @@ section {
 		transition: all 1s;
 	}
 
-	h1, p{
+	p{
 
 		max-width: 75%;
+		font-size: 85%;
 		margin-right: 300px;
 		transition: all 1s;
 		
 	}
 
+	h1{
+
+		
+		font-size: 2.4em;
+		margin-right: 300px;
+		transition: all 1s;
+
+	}
+
 	#colors{
 
-		max-width: 75%;
-		max-height: 75%;
+		max-width: 70%;
+		max-height: 70%;
+		transition: all 1s;
+		
+	}
+
+	#textures{
+
+		max-width: 67.5%;
 		transition: all 1s;
 		
 	}
@@ -130,11 +176,20 @@ section {
 	h1, p{
 
 		max-width: 50%;
-		margin-right: 400px;
+		font-size: 50%;
+		margin-right: 475px;
 		transition: all 1s;
 	}
 
 	#colors{
+
+		max-width: 50%;
+		max-height: 50%;
+		transition: all 1s;
+		
+	}
+
+	#textures{
 
 		max-width: 50%;
 		max-height: 50%;
@@ -158,7 +213,8 @@ section {
 	h1, p{
 
 		max-width: 35%;
-		margin-right: 500px;
+		font-size: 35%;
+		margin-right: 650px;
 		transition: all 1s;
 		
 	}
@@ -167,6 +223,14 @@ section {
 
 		max-width: 35%;
 		max-height: 35%;
+		transition: all 1s;
+		
+	}
+
+	#textures{
+
+		max-width: 25%;
+		max-height: 25%;
 		transition: all 1s;
 		
 	}
@@ -269,15 +333,18 @@ transition: all 1.5s;
 
 #colors{
 
-	margin: 7.5px;
-	padding-left: 85px; 
+	margin: 0px 15px 0px 15px;
+	padding-left: 85px;
+	padding-top: 15px; 
 
 }
 
 #textures{
 
-	margin: 7.5px;
+	margin: 0px 15px 0px 15px;
 	padding-left: 110px;
+	padding-top: 15px;
+	padding-bottom: 25px;
 
 }
 
