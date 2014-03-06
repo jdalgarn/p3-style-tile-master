@@ -6,37 +6,59 @@ body{
 
 }
 
-h1{
+.name h1{
 
 font-family: 'Anaheim', sans-serif;
 font-variant: bold;
 font-size: 2.55em;
-float: right;
+text-align: right;
+margin-top: 0px;
+margin-right: 50px;
+margin-bottom: 5px;
+
+}
+
+.name em{
+
+	float: right;
+	margin-right: 50px;
 
 }
 
 h2{
-	
+	font-family: 'Montserrat Alternates', sans-serif;
+	color: #FF6300;
+	margin-bottom: 5px;
+	font-size: 2em;
+
+}
+
+.prime em{
+
+	margin: 0px 10px 0px 10px;
+	padding-right: 10px;
+	color: #FF6300;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 0.875em;
+
+}
+
+h3{
+
 	font-family: 'Raleway', sans-serif;
-	
+	color: #6E7F94;
+	margin-bottom: 5px;
+	font-size: 1.5em;
 
 }
 
-	h3, p, a {
+.secondary em{
 
-
-	}
-
-}
-
-.name{
-	
-	width: 90%;
-	float: right;
-	
-}
-
-.name em {
+	color: #6E7F94;
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.875em;
+	margin: 0px 10px 0px 10px;
+	padding-right: 10px;
 
 }
 
@@ -44,7 +66,8 @@ h2{
 section {
 
 	background-color: #fff;
-	margin: 20px 15px 0px 15px;
+	margin: 0px 15px 0px 15px;
+	padding-left: 15px;
 
 }
 
@@ -70,173 +93,14 @@ section {
 
 }
 
-@media screen and (max-width: 2600px){
+.logo{
 
-	.logo{
-
-		padding-left: 10px;
-		max-width: 80%;
-		max-height: 80%;
-		transition: all 1s;
-		
-	}
-
-	section, #words, p{
-
-		max-width: 90%;
-		font-size: 90%;
-		margin-right: 200px;
-		transition: all 1s;
-		
-	}
-
-	h1{
-
-		max-width: 90%;
-		font-size: 2.5em;
-		margin-right: 200px;
-		transition: all 1s;
-
-	}
-
-	#colors{
-		
-		max-width: 70%;
-		font-size: 80%;
-		margin-right: 200px;
-		transition: all 1s;
-		
-	}
-	
-	#textures{
-
-		max-width: 67.5%;
-		transition: all 1s;
-		
-	}
-
+	margin-top: 10px;
+	padding-left: 10px;
+	max-width: 90%;
+	max-height: 90%;
+			
 }
-
-@media screen and (max-width: 918px){
-
-	.logo{
-
-		padding-left: 10px;
-		max-width: 75%;
-		max-height: 75%;
-		transition: all 1s;
-	}
-
-	p{
-
-		max-width: 75%;
-		font-size: 85%;
-		margin-right: 300px;
-		transition: all 1s;
-		
-	}
-
-	h1{
-
-		
-		font-size: 2.4em;
-		margin-right: 300px;
-		transition: all 1s;
-
-	}
-
-	#colors{
-
-		max-width: 70%;
-		max-height: 70%;
-		transition: all 1s;
-		
-	}
-
-	#textures{
-
-		max-width: 67.5%;
-		transition: all 1s;
-		
-	}
-
-}
-
-@media screen and (max-width: 780px){
-
-	.logo{
-
-		padding-left: 10px;
-		max-width: 50%;
-		max-height: 50%;
-		transition: all 1s;
-		
-	}
-
-	h1, p{
-
-		max-width: 50%;
-		font-size: 50%;
-		margin-right: 475px;
-		transition: all 1s;
-	}
-
-	#colors{
-
-		max-width: 50%;
-		max-height: 50%;
-		transition: all 1s;
-		
-	}
-
-	#textures{
-
-		max-width: 50%;
-		max-height: 50%;
-		transition: all 1s;
-		
-	}
-
-}
-
-@media screen and (max-width: 544px){
-
-	.logo{
-
-		padding-left: 10px;
-		max-width: 30%;
-		max-height: 30%;
-		transition: all 1s;
-		
-	}
-
-	h1, p{
-
-		max-width: 35%;
-		font-size: 35%;
-		margin-right: 650px;
-		transition: all 1s;
-		
-	}
-
-	#colors{
-
-		max-width: 35%;
-		max-height: 35%;
-		transition: all 1s;
-		
-	}
-
-	#textures{
-
-		max-width: 25%;
-		max-height: 25%;
-		transition: all 1s;
-		
-	}
-
-}
-
 
 .color-1{
 
@@ -348,8 +212,45 @@ transition: all 1.5s;
 
 }
 
+footer{
+
+	background-color: #fff;
+	margin: 0px 15px 0px 15px;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-radius: 0px 0px 20px 20px;
+
+}
+
+#words p{
+
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
 
 
+}
+
+#words p > a{
+
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	color: #FF6300;
+
+}
+
+#words a:hover {
+
+color: #FF6300;
+text-decoration: none;
+
+}
+
+#words a:visited {
+
+color: #173045;
+
+}
 
 
 
